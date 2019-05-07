@@ -25,6 +25,7 @@ function shop(){
       case "2":
         if(player.gold >= 200){
           player.inventory.push("rusty sword");
+          player.strength += 20;
           console.log("I suppose I can part with it.");
           console.log("You have succesfully purchased a 'rusty sword'!");
           choose();
@@ -36,6 +37,7 @@ function shop(){
       case "3":
         if(player.gold >= 500){
           player.inventory.push("chain mail");
+          player.health += 300;
           console.log("Big spender, eh?");
           console.log("You have succesfully purchased 'chain mail'!")
           choose();
