@@ -8,7 +8,7 @@ function loot(){
     player.potionCount++;
     console.log("The enemy dropped a potion! You now have " + player.potionCount + " health potions!");
   } else if(lootTable[rand] === "gold coins"){
-    player.gold += 10;
-    console.log("The enemy dropped 10 gold coins! You now have " + player.gold + " coins!");
+    player.gold += 25;
+    console.log("The enemy dropped 25 gold coins! You now have " + player.gold + " coins!");
   }
 }
